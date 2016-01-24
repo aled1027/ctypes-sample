@@ -1,8 +1,8 @@
 # Ctypes Sample
-An example of using ctypes taken from [Python Cookbook](http://chimera.labs.oreilly.com/books/1230000000393/ch15.html). The code is compatible with python3. 
+An example of using ctypes taken from [Python Cookbook](http://chimera.labs.oreilly.com/books/1230000000393/ch15.html). The code is compatible with Python3. 
 
 ## Setup
-1. Compile `sample.c` into a shard library:
+1. Compile `sample.c` into a shared library:
 ```
 gcc -c -Wall -Werror -fpic sample.c 
 gcc -shared -o libsample.so sample.o
